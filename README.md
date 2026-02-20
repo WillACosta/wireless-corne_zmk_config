@@ -44,9 +44,16 @@ If shipping allows, batteries are included. The PCB features a micro JST connect
 
 ---
 
-## How to Flash
+## Flashing
 
-1. **Modify:** Fork this repo and edit your files in the `config/` folder.
-2. **Build:** GitHub Actions will automatically compile your firmware.
-3. **Download:** Grab the `firmware.uf2` from the Actions tab.
-4. **Install:** Connect the board via USB, double-tap the reset button, and drag the file onto the drive.
+1. Edit `config/blecorne.keymap`
+2. Push -> GitHub Actions builds automatically
+3. Download `.uf2` from Actions -> Artifacts
+4. USB -> double tap reset -> drag `.uf2` to the drive
+5. Flash both halves separately (`_left` and `_right`)
+
+## Links
+
+- [Miryoku](https://github.com/manna-harbour/miryoku)
+- [Wireless SMT Corne Docs](https://boardsource.xyz/blogs/guides/wireless-smt-corne-docs)
+- [ZMK Docs](https://zmk.dev/docs)
