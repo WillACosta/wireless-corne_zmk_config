@@ -2,19 +2,9 @@
 
 This repository contains the official ZMK configuration for the **Wireless Corne SMT**. This PCB is designed for a seamless, cable-free experience with full support for ZMK Studio.
 
-* **Product Page:** [Wireless Corne SMT PCB](https://boardsource.xyz/products/wireless-corne-smt-pcb-assembled-hot-swap-zmk-compatible-split-keyboard-pcb)
-* **Full Documentation & Build Guide:** [Wireless SMT Corne Docs](https://boardsource.xyz/blogs/guides/wireless-smt-corne-docs)
+## Keymap
 
----
-
-## Features
-
-* **ZMK Studio Ready:** Change your keymap in real-time without reflashing.
-* **Fully Wireless:** No TRRS cable or USB connection required for standard use.
-* **Universal Support:** Works with MX, Choc v1, and Choc v2 switches.
-* **Pre-Flashed:** Ready to use out of the box.
-
----
+![keymap image](./keymap-drawer/blecorne.svg)
 
 ## Expansion Pinout
 

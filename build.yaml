@@ -7,7 +7,9 @@ include:
     cmake-args: -DCONFIG_ZMK_STUDIO=y
     # shield: nice_view
     shield: kyria_left nice_view_adapter nice_view_gem
+    artifact-name: blecorne_left
 
   - board: blecorne_right
     # shield: nice_view
     shield: kyria_right nice_view_adapter nice_view_gem
+    artifact-name: blecorne_right
