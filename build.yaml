@@ -3,9 +3,10 @@ include:
   - board: blecorne_left
     snippet: studio-rpc-usb-uart
     cmake-args: -DCONFIG_ZMK_STUDIO=y
-    shield: nice_view_gem # or nice_view for default
-    artifact-name: blecorne_left
+    shield: nice_view
+    # shield: nice_view_gem # or nice_view for default
 
   - board: blecorne_right
-    shield: nice_view_gem # or nice_view for default
-    artifact-name: blecorne_right
+    shield: nice_view
+    # shield: nice_view_gem # or nice_view for default
+    # artifact-name: blecorne_right
