@@ -43,5 +43,9 @@
                                          &kp LGUI &trans   &kp SPACE   &kp RET   &trans    &kp RALT
             >;
         };
+
+        function_layer {}
+
+        special_layer {}
     };
 };
