@@ -2,8 +2,8 @@ layout: {zmk_keyboard: blecorne, layout_name: foostan_corne_6col_layout}
 layers:
   Base:
   - ['$$mdi:keyboard-tab$$', Q, W, E, R, T, Y, U, I, O, P, '$$mdi:backspace$$']
-  - - {t: ⇧, type: ghost}
-    - {t: A, h: ⌘}
+  - - {t: '$$mdi:keyboard-esc$$', h: ⇧}
+    - A
     - {t: S, h: ⌥}
     - {t: D, h: ⌃}
     - {t: F, h: ⇧}
@@ -12,9 +12,9 @@ layers:
     - {t: J, h: ⇧}
     - {t: K, h: ⌃}
     - {t: L, h: ⌥}
-    - {t: ;, h: ⌘}
+    - ;
     - ''''
-  - - {t: '$$mdi:keyboard-esc$$', h: ⌃}
+  - - {t: ⌃, type: ghost}
     - Z
     - X
     - C
@@ -27,13 +27,13 @@ layers:
     - /
     - {t: '$$mdi:keyboard-esc$$', h: ⌃}
   - - {t: ⌘, type: ghost}
-    - '&td_device'
+    - '&td_media'
     - $$mdi:keyboard-space$$
     - $$mdi:keyboard-return$$
     - Num
     - {t: '$$mdi:backspace$$', h: ⌥}
   Symbol:
-  - - $$mdi:backspace$$
+  - - {type: trans}
     - '!'
     - '@'
     - '#'
@@ -87,7 +87,7 @@ layers:
     - '8'
     - '9'
     - '0'
-    - $$mdi:backspace-reverse$$
+    - {type: trans}
   - - {type: trans}
     - F2
     - F5
@@ -118,7 +118,7 @@ layers:
     - {type: trans}
     - {type: held}
     - {type: trans}
-  Device:
+  Media:
   - - {type: trans}
     - {type: trans}
     - {type: trans}
@@ -232,3 +232,10 @@ combos:
 - p: [17, 16]
   k: $$mdi:keyboard-return$$
   l: [Base]
+- p: [1, 1, 2, 3]
+  k: Ctl+TAB
+  l: [Base]
+- p: [2, 3, 4]
+  k: Alt+TAB
+- p: [12, 1]
+  k: $$mdi:backspace-reverse$$
