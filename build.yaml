@@ -7,6 +7,8 @@ include:
   - board: blecorne_right
     shield: nice_view
     artifact-name: bs_corne_right
+    cmake-args: -DCONFIG_ZMK_STATUS_ADVERTISEMENT=n
+
 
   # Build a "settings reset" firmware to clear persistent settings
   # (bluetooth connections, ZMK Studio keymap overrides, etc).
