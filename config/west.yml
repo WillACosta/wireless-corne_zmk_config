@@ -3,7 +3,7 @@ manifest:
     - name: zmkfirmware
       url-base: https://github.com/zmkfirmware
     - name: prospector
-      url-base: https://github.com/t-ogura
+      url-base: https://github.com/WillACosta
 
   projects:
     - name: zmk
@@ -13,7 +13,7 @@ manifest:
 
     - name: prospector-zmk-module
       remote: prospector
-      revision: dev/v2.2.2-test
+      revision: main
       path: modules/prospector-zmk-module
 
   self:
