@@ -1,6 +1,6 @@
 layout: {zmk_keyboard: blecorne, layout_name: foostan_corne_6col_layout}
 layers:
-  Base:
+  base:
   - ['$$mdi:keyboard-tab$$', Q, W, E, R, T, Y, U, I, O, P, '$$mdi:backspace$$']
   - - {t: '$$mdi:keyboard-esc$$', h: ⇧}
     - A
@@ -30,10 +30,10 @@ layers:
     - '&td_media'
     - $$mdi:keyboard-space$$
     - $$mdi:keyboard-return$$
-    - Num
-    - {t: '$$mdi:backspace$$', h: ⌥}
-  Symbol:
-  - - {type: trans}
+    - num
+    - {t: ⌥, type: ghost}
+  sym:
+  - - $$mdi:backspace-reverse$$
     - '!'
     - '@'
     - '#'
@@ -75,7 +75,7 @@ layers:
     - {type: trans}
     - {type: trans}
     - $$mdi:backspace-reverse$$
-  Num:
+  num:
   - - {type: trans}
     - '1'
     - '2'
@@ -87,7 +87,7 @@ layers:
     - '8'
     - '9'
     - '0'
-    - {type: trans}
+    - $$mdi:backspace-reverse$$
   - - {type: trans}
     - F2
     - F5
@@ -118,7 +118,7 @@ layers:
     - {type: trans}
     - {type: held}
     - {type: trans}
-  Media:
+  med:
   - - {type: trans}
     - {type: trans}
     - {type: trans}
@@ -161,7 +161,7 @@ layers:
     - {type: trans}
     - {type: trans}
     - {type: trans}
-  Mouse:
+  dev:
   - - {type: trans}
     - {type: trans}
     - {type: trans}
@@ -207,34 +207,34 @@ layers:
 combos:
 - p: [1, 2]
   k: $$mdi:keyboard-tab$$
-  l: [Base]
+  l: [base]
 - p: [18, 19]
   k: $$mdi:home$$
-  l: [Base]
+  l: [base]
 - p: [20, 21]
   k: {t: End, type: ghost}
-  l: [Base]
+  l: [base]
 - p: [19, 20]
   k: $$mdi:backspace$$
-  l: [Base]
+  l: [base]
 - p: [30, 31]
   k: $$mdi:chevron-double-down$$
-  l: [Base]
+  l: [base]
 - p: [7, 6]
   k: $$mdi:chevron-double-up$$
-  l: [Base]
+  l: [base]
 - p: [3, 2]
   k: Ctl+W
-  l: [Base]
+  l: [base]
 - p: [14, 15]
   k: Ctl+A
-  l: [Base]
+  l: [base]
 - p: [17, 16]
   k: $$mdi:keyboard-return$$
-  l: [Base]
+  l: [base]
 - p: [1, 1, 2, 3]
   k: Ctl+TAB
-  l: [Base]
+  l: [base]
 - p: [2, 3, 4]
   k: Alt+TAB
 - p: [12, 1]
