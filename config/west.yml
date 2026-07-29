@@ -2,7 +2,7 @@ manifest:
   remotes:
     - name: zmkfirmware
       url-base: https://github.com/zmkfirmware
-    - name: prospector
+    - name: willACosta
       url-base: https://github.com/WillACosta
 
   projects:
@@ -12,7 +12,7 @@ manifest:
       import: app/west.yml
 
     - name: prospector-zmk-module
-      remote: prospector
+      remote: willACosta
       revision: main
       path: modules/prospector-zmk-module
 
