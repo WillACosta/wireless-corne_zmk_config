@@ -4,14 +4,14 @@ layers:
   - ['$$mdi:keyboard-tab$$', Q, W, E, R, T, Y, U, I, O, P, '$$mdi:backspace$$']
   - - {t: '$$mdi:keyboard-esc$$', h: ⇧}
     - A
-    - S
-    - D
-    - F
+    - {t: S, h: ⌥}
+    - {t: D, h: ⌃}
+    - {t: F, h: ⇧}
     - G
     - H
-    - J
-    - K
-    - L
+    - {t: J, h: ⇧}
+    - {t: K, h: ⌃}
+    - {t: L, h: ⌥}
     - ;
     - ''''
   - - {t: ⌃, type: ghost}
