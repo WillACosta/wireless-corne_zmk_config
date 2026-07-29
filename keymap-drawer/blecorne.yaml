@@ -4,14 +4,14 @@ layers:
   - ['$$mdi:keyboard-tab$$', Q, W, E, R, T, Y, U, I, O, P, '$$mdi:backspace$$']
   - - {t: '$$mdi:keyboard-esc$$', h: ⇧}
     - A
-    - {t: S, h: ⌥}
-    - {t: D, h: ⌃}
-    - {t: F, h: ⇧}
+    - S
+    - D
+    - F
     - G
     - H
-    - {t: J, h: ⇧}
-    - {t: K, h: ⌃}
-    - {t: L, h: ⌥}
+    - J
+    - K
+    - L
     - ;
     - ''''
   - - {t: ⌃, type: ghost}
@@ -33,7 +33,7 @@ layers:
     - num
     - {t: ⌥, type: ghost}
   sym:
-  - - $$mdi:backspace-reverse$$
+  - - {type: trans}
     - '!'
     - '@'
     - '#'
@@ -45,7 +45,7 @@ layers:
     - (
     - )
     - {type: trans}
-  - - {t: '$$mdi:restart$$', type: held}
+  - - $$mdi:backspace-reverse$$
     - {type: trans}
     - /
     - \
@@ -74,7 +74,7 @@ layers:
     - {type: trans}
     - {type: trans}
     - {type: trans}
-    - $$mdi:backspace-reverse$$
+    - {type: trans}
   num:
   - - {type: trans}
     - '1'
@@ -87,7 +87,7 @@ layers:
     - '8'
     - '9'
     - '0'
-    - $$mdi:backspace-reverse$$
+    - {type: trans}
   - - {type: trans}
     - F2
     - F5
@@ -99,7 +99,7 @@ layers:
     - $$mdi:arrow-up$$
     - $$mdi:arrow-right$$
     - {type: trans}
-    - {t: '$$mdi:restart$$', type: held}
+    - $$mdi:backspace-reverse$$
   - - {type: trans}
     - {type: trans}
     - {type: trans}
@@ -162,7 +162,7 @@ layers:
     - {type: trans}
     - {type: trans}
   dev:
-  - - {type: trans}
+  - - {t: '$$mdi:restart$$', type: held}
     - {type: trans}
     - {type: trans}
     - {type: trans}
@@ -173,7 +173,7 @@ layers:
     - $$mdi:mouse-scroll-wheel$$
     - $$mdi:mouse-right-click$$
     - {type: trans}
-    - {type: trans}
+    - {t: '$$mdi:restart$$', type: held}
   - - {t: '$$mdi:bluetooth-off$$', type: held}
     - {t: '$$mdi:bluetooth$$', s: '0'}
     - {t: '$$mdi:bluetooth$$', s: '1'}
