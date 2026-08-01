@@ -4,7 +4,9 @@ on:
   workflow_dispatch:
   push:
     paths:
-      - "config/**"
+      - "config/blecorne.conf"
+      - "config/blecorne.keymap"
+      - "config/west.yml"
       - "boards/**"
       - "build.yaml"
 
