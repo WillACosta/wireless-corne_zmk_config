@@ -1,10 +1,9 @@
 {
-  "id": "blecorne",
-  "name": "BS Corne",
+  "id": "dormin_keyboard",
+  "name": "Dormin",
   "layouts": {
     "default_layout": {
       "layout": [
-        { "label": "Tab", "x": 0, "y": 0.375, "row": 0, "col": 0 },
         { "label": "Q", "x": 1, "y": 0.375, "row": 0, "col": 1 },
         { "label": "W", "x": 2, "y": 0.125, "row": 0, "col": 2 },
         { "label": "E", "x": 3, "y": 0, "row": 0, "col": 3 },
@@ -15,9 +14,8 @@
         { "label": "I", "x": 8.5, "y": 0, "row": 0, "col": 8 },
         { "label": "O", "x": 9.5, "y": 0.125, "row": 0, "col": 9 },
         { "label": "P", "x": 10.5, "y": 0.375, "row": 0, "col": 10 },
-        { "label": "Bksp", "x": 11.5, "y": 0.375, "row": 0, "col": 11 },
 
-        { "label": "Ctrl", "x": 0, "y": 1.375, "row": 1, "col": 0 },
+        { "label": "Ctrl", "x": 0, "y": 1.125, "row": 1, "col": 0 },
         { "label": "A", "x": 1, "y": 1.375, "row": 1, "col": 1 },
         { "label": "S", "x": 2, "y": 1.125, "row": 1, "col": 2 },
         { "label": "D", "x": 3, "y": 1, "row": 1, "col": 3 },
@@ -28,9 +26,9 @@
         { "label": "K", "x": 8.5, "y": 1, "row": 1, "col": 8 },
         { "label": "L", "x": 9.5, "y": 1.125, "row": 1, "col": 9 },
         { "label": ";", "x": 10.5, "y": 1.375, "row": 1, "col": 10 },
-        { "label": "'", "x": 11.5, "y": 1.375, "row": 1, "col": 11 },
+        { "label": "'", "x": 11.5, "y": 1.125, "row": 1, "col": 11 },
 
-        { "label": "Shift", "x": 0, "y": 2.375, "row": 2, "col": 0 },
+        { "label": "Shift", "x": 0, "y": 2.125, "row": 2, "col": 0 },
         { "label": "Z", "x": 1, "y": 2.375, "row": 2, "col": 1 },
         { "label": "X", "x": 2, "y": 2.125, "row": 2, "col": 2 },
         { "label": "C", "x": 3, "y": 2, "row": 2, "col": 3 },
@@ -41,51 +39,51 @@
         { "label": ",", "x": 8.5, "y": 2, "row": 2, "col": 8 },
         { "label": ".", "x": 9.5, "y": 2.125, "row": 2, "col": 9 },
         { "label": "/", "x": 10.5, "y": 2.375, "row": 2, "col": 10 },
-        { "label": "Esc", "x": 11.5, "y": 2.375, "row": 2, "col": 11 },
+        { "label": "Esc", "x": 11.5, "y": 2.125, "row": 2, "col": 11 },
 
-        { "label": "Command", "x": 3.25, "y": 3.375, "row": 3, "col": 3 },
+        { "label": "Command", "x": 3.9, "y": 3.4, "row": 3, "col": 3 },
         {
           "label": "Sym Layer",
-          "x": 4.25,
-          "y": 3.625,
+          "x": 4.85,
+          "y": 3.4,
           "r": 13,
           "rx": 0,
-          "ry": 3.625,
+          "ry": 4.25,
           "row": 3,
           "col": 4
         },
         {
           "label": "Space",
-          "x": 5.25,
-          "y": 3.75,
+          "x": 5.3,
+          "y": 2.3,
           "r": 25,
           "rx": 0,
-          "ry": 3.75,
+          "ry": 4.6,
           "row": 3,
           "col": 5
         },
 
         {
           "label": "Enter",
-          "x": 6.25,
-          "y": 3.75,
+          "x": 8.5,
+          "y": 3.4,
           "r": -25,
-          "rx": 6.25,
-          "ry": 3.75,
+          "rx": 9.5,
+          "ry": 4.6,
           "row": 3,
           "col": 6
         },
         {
           "label": "Num Layer",
-          "x": 7.75,
-          "y": 3.625,
+          "x": 9.05,
+          "y": 3.3,
           "r": -13,
-          "rx": 7.75,
-          "ry": 3.625,
+          "rx": 10.5,
+          "ry": 4.25,
           "row": 3,
           "col": 7
         },
-        { "label": "Option", "x": 8.75, "y": 3.375, "row": 3, "col": 8 }
+        { "label": "Option", "x": 10.1, "y": 3.4, "row": 3, "col": 8 }
       ]
     }
   },
