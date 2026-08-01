@@ -204,10 +204,10 @@
         device_layer {
             display-name = "dev";
             bindings = <
-&bootloader     &trans        &trans        &trans        &trans        &trans        &mkp MB4        &mkp LCLK       &mkp MCLK     &mkp RCLK        &trans  &bootloader
-&bt BT_CLR      &bt BT_SEL 0  &bt BT_SEL 1  &bt BT_SEL 2  &bt BT_SEL 3  &bt BT_SEL 4  &mmv MOVE_LEFT  &mmv MOVE_DOWN  &mmv MOVE_UP  &mmv MOVE_RIGHT  &trans  &trans
-&bt BT_CLR_ALL  &out OUT_TOG  &trans        &trans        &trans        &trans        &msc SCRL_LEFT  &msc SCRL_DOWN  &msc SCRL_UP  &msc SCRL_RIGHT  &trans  &trans
-                                            &trans        &none         &trans        &trans          &none           &trans
+&trans       &trans        &trans        &trans        &trans        &trans        &mkp MB4        &mkp LCLK       &mkp MCLK     &mkp RCLK        &trans  &trans
+&bootloader  &bt BT_SEL 0  &bt BT_SEL 1  &bt BT_SEL 2  &bt BT_SEL 3  &bt BT_SEL 4  &mmv MOVE_LEFT  &mmv MOVE_DOWN  &mmv MOVE_UP  &mmv MOVE_RIGHT  &trans  &bootloader
+&bt BT_CLR   &out OUT_TOG  &trans        &trans        &trans        &trans        &msc SCRL_LEFT  &msc SCRL_DOWN  &msc SCRL_UP  &msc SCRL_RIGHT  &trans  &bt BT_CLR_ALL
+                                         &trans        &none         &trans        &trans          &none           &trans
             >;
         };
     };
