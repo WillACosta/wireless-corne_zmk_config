@@ -162,7 +162,7 @@ layers:
     - {type: trans}
     - {type: trans}
   dev:
-  - - {t: '$$mdi:restart$$', type: held}
+  - - {type: trans}
     - {type: trans}
     - {type: trans}
     - {type: trans}
@@ -173,8 +173,8 @@ layers:
     - $$mdi:mouse-scroll-wheel$$
     - $$mdi:mouse-right-click$$
     - {type: trans}
-    - {t: '$$mdi:restart$$', type: held}
-  - - {t: '$$mdi:bluetooth-off$$', type: held}
+    - {type: trans}
+  - - {t: '$$mdi:restart$$', type: held}
     - {t: '$$mdi:bluetooth$$', s: '0'}
     - {t: '$$mdi:bluetooth$$', s: '1'}
     - {t: '$$mdi:bluetooth$$', s: '2'}
@@ -185,8 +185,8 @@ layers:
     - $$mdi:cursor-move$$
     - $$mdi:cursor-move$$
     - {type: trans}
-    - {type: trans}
-  - - BT CLR ALL
+    - {t: '$$mdi:restart$$', type: held}
+  - - {t: '$$mdi:bluetooth-off$$', type: held}
     - OUT TOG
     - {type: trans}
     - {type: trans}
@@ -197,7 +197,7 @@ layers:
     - $$mdi:gesture-swipe-up$$
     - $$mdi:gesture-swipe-right$$
     - {type: trans}
-    - {type: trans}
+    - BT CLR ALL
   - - {type: trans}
     - ''
     - {type: trans}
